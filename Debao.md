@@ -9,8 +9,8 @@
 
 ```bash
 sudo apt install git
-git config --global user.name "ox0v0xo"
-git config --global user.email "xxx"
+git config --global user.name "8ox0v0xo8"
+git config --global user.email "ox0v0xo@outlook.com"
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
