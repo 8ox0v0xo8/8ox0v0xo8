@@ -1,0 +1,10 @@
+robots.txt
+admin
+admin/
+login
+search.txt
+index
+index.html
+background.jpg
+.html
+getslack

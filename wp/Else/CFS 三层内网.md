@@ -1,5 +1,7 @@
 # CFS 三层内网
 
+## target 1
+
 `http://192.168.1.73/public/`
 
 `http://192.168.1.73/public/?s=1` 查看版本为 `ThinkPHP V5.0.15`
