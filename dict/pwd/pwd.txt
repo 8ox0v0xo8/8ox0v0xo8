@@ -19,7 +19,12 @@
 admin
 col123456
 guest
+kali
+li828
+Passw0rd
+Passw0rd@123
 password
+Password
 Password@123
 qwerty
 qwerty123
