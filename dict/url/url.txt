@@ -6,6 +6,7 @@
 .htm
 .html
 .io
+.patch
 .php
 .txt
 \..\..\..\..\..\..\..\..\..\etc\passwd
@@ -59,6 +60,7 @@ note
 party
 Party
 passport
+patch
 preferences.php
 privacy
 products

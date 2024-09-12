@@ -1,12 +1,15 @@
 # Tool
 
+> 目标 IP: 11.11.11.11
+
 - [Tool](#tool)
   - [find](#find)
   - [nmap](#nmap)
+    - [OPTION](#option)
   - [nessus (Docker)](#nessus-docker)
   - [curl](#curl)
   - [hydra](#hydra)
-    - [OPTION](#option)
+    - [OPTION](#option-1)
   - [vi](#vi)
     - [命令模式](#命令模式)
 
@@ -16,15 +19,20 @@
 
 ## nmap
 
-```bash
+```shell
 sudo apt install nmap
 
 # 查看版本
 nmap --version
-
-# 扫主机列表
-nmap -sn 192.168.8.0/24
 ```
+
+### OPTION
+
+- -C:"服务检测"功能
+- -Pn:直接进行端口扫描，不发送 ICMP Echo 请求（ping）来检测目标主机是否在线
+- -sS:SYN 半开连接扫描
+- -sV:服务版本探测
+- -V:显示详细输出
 
 ## nessus (Docker)
 
