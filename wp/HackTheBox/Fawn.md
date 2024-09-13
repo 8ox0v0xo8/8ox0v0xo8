@@ -1,6 +1,6 @@
 # Fawn
 
-> IP: 10.11.11.11
+> 目标 IP: 10.11.11.11
 
 ## TAKS 1
 
@@ -99,7 +99,4 @@ local: flag.txt remote: flag.txt
 32 bytes received in 00:01 (0.01 KiB/s)
 ftp> exit
 221 Goodbye.
-
-$ cat flag.txt
-[flag]
 ```

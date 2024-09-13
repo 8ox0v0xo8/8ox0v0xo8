@@ -1,8 +1,11 @@
 # Meow
 
 > Connect using OpenVPN
+>
 > TCP 443 -> DOWNLOAD VPN -> starting_point_username.ovpn
+>
 > Linux bash: openvpn starting_point_username.ovpn
+>
 > get IP (10.11.11.11)
 
 ## TASK 1
@@ -64,6 +67,4 @@ Meow login: root
 
 root@Meow:~# ls
 flag.txt  snap
-root@Meow:~# cat flag.txt
-[flag]
 ```

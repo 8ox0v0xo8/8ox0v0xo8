@@ -49,6 +49,7 @@ guest
 guest*PWD
 hicomadmin
 hillstone
+insaneclownposse
 kali
 leadsec
 leadsec.auditor
