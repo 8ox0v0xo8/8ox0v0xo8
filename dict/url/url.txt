@@ -1,8 +1,15 @@
+.7z
+.access
+.asp
+.aspx
 .bash_history
+.bash_logout
+.bash_profile
 .cfg
 .config
 .git
 .github
+.gitignore
 .htm
 .html
 .io
@@ -31,6 +38,7 @@ detail
 doc/html/index.html
 Documetation.html 
 Documetation.txt 
+env
 favicon
 favicon.ico
 getslack
@@ -41,6 +49,8 @@ index.html
 index.php
 index.php/login
 info
+ip
+ip.txt
 Job
 js
 list
@@ -75,6 +85,9 @@ search.txt
 seeyon
 server-status
 server-status/
+setup
+share
+shell
 show
 swagger
 swagger.json
@@ -91,3 +104,4 @@ v1/swagger.json
 weatherforecast
 WEB-INF
 wp-config
+xml
