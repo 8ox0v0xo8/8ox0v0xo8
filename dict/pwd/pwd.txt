@@ -3,13 +3,10 @@
 !1fw@2soc#3vpn
 !1ws
 +-ccccc
-P4ssw@rd
 000000
 111111
-1qaz@WSX
 120223
 123
-12qwaszx!@
 123123
 123321
 1234
@@ -19,7 +16,9 @@ P4ssw@rd
 12345678
 123456789
 1234567890
+12qwaszx!@
 1q2w3e
+1qaz@WSX
 2088
 555555
 654321
@@ -63,6 +62,7 @@ leadsec32
 li828
 none
 ns25000
+P4ssw@rd
 Passw0rd
 Passw0rd@123
 password
