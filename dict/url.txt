@@ -1,4 +1,5 @@
 __init__.py
+_query
 .7z
 .access
 .asp
@@ -9,6 +10,7 @@ __init__.py
 .cfg
 .config
 .git
+.gitbucket
 .github
 .gitignore
 .htm
@@ -44,23 +46,32 @@ channels
 console
 contents
 css
+data
+db
+dbviewer
+demo
 detail
 doc/html/index.html
 Documetation.html 
 Documetation.txt 
+engine
 env
 etc
 etc/passwd
+examples
 favicon
 favicon.ico
 getslack
 git/
+gitbucket
 github/
 gitlab
 gitlab/
 gitlog
 global
+h2-console
 hello
+home
 html
 img
 index
@@ -72,6 +83,7 @@ ip
 ip.txt
 Job
 js
+jsp
 list
 log
 login
@@ -83,6 +95,7 @@ Manage
 manager
 manager/html
 metrics
+new
 News
 nginx_status
 node
@@ -124,8 +137,11 @@ products
 profile
 Profile
 properties
+query
 rails
 readme
+register
+reset
 robots.txt
 root/
 root/Logservice
@@ -144,6 +160,8 @@ setup
 share
 shell
 show
+signin
+signout
 start
 start.html
 start.sh
@@ -154,6 +172,7 @@ swagger/index.html
 swagger/v1/swagger.json
 tag
 tags
+tomcat-docs
 translators.html
 upload
 upload.htm
@@ -171,6 +190,7 @@ userLogin.asp
 v1
 v1/swagger.json
 var
+viewer
 weatherforecast
 WEB-INF
 webdav/
@@ -202,4 +222,4 @@ wwwroot.tar.gz
 wwwroot.tgz
 wwwroot.zip
 xml
-zabbix/
+zabbix

