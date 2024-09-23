@@ -65,6 +65,12 @@ userlist AuthUsers
 
 Gitbucket 设置界面查找有 Database viewer 功能, 可执行 SQL 语句, 根据报错信息得知为 H2 数据库
 
+<!-- 未执行, 看wp的
+
+[H2 数据库漏洞](https://medium.com/r3d-buck3t/chaining-h2-database-vulnerabilities-for-rce-9b535a9621a2)
+
+查看版本`SELECT H2VERSION() FROM DUAL` -->
+
 ```sql
 -- Gitbacket 的 Database viewer 中执行SQL语句可远程执行命令
 
