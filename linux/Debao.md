@@ -7,6 +7,7 @@
   - [允许 root 登录 ssh](#允许-root-登录-ssh)
   - [Git](#git)
   - [Docker](#docker)
+  - [rust](#rust)
 
 ## sudo
 
@@ -137,4 +138,39 @@ sudo systemctl restart docker
 
 # docker 开机自启
 sudo systemctl enable docker
+```
+
+## rust
+
+```shell
+# 安装工具
+sudo apt install make build-essential curl
+
+# 配置国内源
+echo 'export RUSTUP_DIST_SERVER="https://rsproxy.cn"' >> ~/.bashrc
+echo 'export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"' >> ~/.bashrc
+source ~/.bashrc
+
+# 安装rust
+# curl --proto '=https' --tlsv1.2 -sSf https://rsproxy.cn/rustup-init.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+
+# 查看版本
+rustc --version
+cargo --version
+
+# 配置国内的crate源
+cat > ~/.cargo/config << EOF
+[source.crates-io]
+replace-with = 'rsproxy-sparse'
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+[net]
+git-fetch-with-cli = true
+EOF
 ```
