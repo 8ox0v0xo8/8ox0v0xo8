@@ -97,12 +97,13 @@ sudo systemctl restart sshd
 
 ```bash
 sudo apt install git
-git config --global user.name "xxx"
-git config --global user.email "xxx@xxx"
+git config --global user.name "8ox0v0xo8"
+git config --global user.email "ox0v0xo@outlook.com"
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 # To solve the problem: SSL certificate problem: unable to get local issuer certificate
 git config --global http.sslVerify false
+git config --list
 ```
 
 ## Docker
