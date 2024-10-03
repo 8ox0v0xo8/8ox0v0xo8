@@ -20,14 +20,25 @@
 12345678
 123456789
 1234567890
+123456789a
+12345678qwq
+123abcABC
 12qwaszx!@
+1a2b3c
 1q2w3e
+1q2w3e4r
+1q2w3e4r5t
+1q2w3e4r5t.
 1qaz@WSX
 2088
 555555
 654321
 666666
 7777777
+a1b2c3
+a1b2c3d4
+a1b2c3d4e5
+aaa123456789+
 admin
 Admin
 admin@(eyou)
@@ -41,6 +52,7 @@ adsl1234
 anonymous
 arlpass
 bane@7766
+C12H22O11
 ciallo
 Ciallo
 Ciallo ～(∠・ω< )⌒★
@@ -75,6 +87,8 @@ P@4w0rd
 P@4w0rd@
 P@4w0rd@123
 P@4w0rd@123.com
+p@ssw0rd
+P@ssw0rd
 P4ssw@rd
 Passw0rd
 Passw0rd@123
@@ -83,6 +97,14 @@ Password
 Password@123
 password$123
 private
+q1w2e3
+q1w2e3r4
+q1w2e3r4t5
+qqaazz
+qqww1122
+qqwwee112233
+qwe123456789
+qwer1234567890
 qwerty
 qwerty123
 qxcomm1680
