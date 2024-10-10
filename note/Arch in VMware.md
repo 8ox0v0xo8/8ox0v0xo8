@@ -77,6 +77,8 @@ PS1='[\u@\h \W]\$ '
 # ---------- ADD ---------- #
 alias la='ls -al'
 alias py='python'
+alias setproxy='export http_proxy=http://192.168.8.1:7897; export https_proxy=http://192.168.8.1:7897'
+alias unsetproxy='unset http_proxy; unset https_proxy'
 
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
